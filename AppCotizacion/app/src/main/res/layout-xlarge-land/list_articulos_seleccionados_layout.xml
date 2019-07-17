@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:layout_margin="2dp"
+    android:paddingTop="3dp"
+    android:paddingBottom="3dp"
+    >
+    <TextView
+        android:id="@+id/lbl_codigo_articulo"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.15"
+        android:paddingLeft="2dp"
+        android:gravity="center_vertical"
+        android:textSize="22sp"
+
+        />
+
+    <TextView
+        android:id="@+id/lbl_descripcion_articulo"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25"
+        android:gravity="center_vertical"
+        android:paddingLeft="2dp"
+        android:textSize="22sp"
+
+        />
+    <TextView
+        android:id="@+id/lbl_cantidad_articulo"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.10"
+        android:gravity="end|center_vertical"
+        android:paddingRight="5dp"
+        android:textSize="22sp"
+        />
+    <TextView
+        android:id="@+id/lbl_precio_articulo"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.15"
+        android:gravity="end|center_vertical"
+        android:paddingRight="5dp"
+        android:textSize="22sp"
+        />
+    <TextView
+        android:id="@+id/lbl_itbis_articulo"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.10"
+        android:gravity="end|center_vertical"
+        android:paddingRight="5dp"
+        android:textSize="22sp"
+        />
+
+    <TextView
+        android:id="@+id/lbl_total_articulo"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.15"
+        android:gravity="end|center_vertical"
+        android:paddingRight="5dp"
+        android:textSize="22sp"
+        />
+
+</LinearLayout>

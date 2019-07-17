@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.proisa.dionicio.appcotizacion">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="com.sec.android.provider.badge.permission.READ"
+        tools:node="remove" />
+    <uses-permission
+        android:name="com.sec.android.provider.badge.permission.WRITE"
+        tools:node="remove" />
+    <uses-permission
+        android:name="com.htc.launcher.permission.READ_SETTINGS"
+        tools:node="remove" />
+    <uses-permission
+        android:name="com.htc.launcher.permission.UPDATE_SHORTCUT"
+        tools:node="remove" />
+    <uses-permission
+        android:name="com.sonyericsson.home.permission.BROADCAST_BADGE"
+        tools:node="remove" />
+    <uses-permission
+        android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"
+        tools:node="remove" />
+    <uses-permission
+        android:name="com.anddoes.launcher.permission.UPDATE_COUNT"
+        tools:node="remove" />
+    <uses-permission
+        android:name="com.majeur.launcher.permission.UPDATE_BADGE"
+        tools:node="remove" />
+    <uses-permission
+        android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"
+        tools:node="remove" />
+    <uses-permission
+        android:name="com.huawei.android.launcher.permission.READ_SETTINGS"
+        tools:node="remove" />
+    <uses-permission
+        android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS"
+        tools:node="remove" />
+
+    <!--
+     Huawei
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" />
+    -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.dionicio.appcotizacion.Actividades.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.dionicio.appcotizacion.Actividades.CreacionPrecotizacion"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.dionicio.appcotizacion.Actividades.SeleccionarItem"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.dionicio.appcotizacion.Actividades.BuscarCliente"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.dionicio.appcotizacion.Actividades.VerFoto">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.dionicio.appcotizacion.Actividades.ActivityLogin" />
+        <activity android:name="com.example.dionicio.appcotizacion.Actividades.ActivityConfiguracion"></activity>
+    </application>
+
+</manifest>

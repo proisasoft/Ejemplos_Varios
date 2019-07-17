@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mobile.proisa.fotosvehiculoslibrary">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application>
+        <activity android:name=".Actividades.VehiculoDetalleActivity" />
+        <activity android:name=".Actividades.AgregarDocumentosActivity" />
+        <activity android:name=".Actividades.VerDocumentosActivity" />
+        <activity android:name=".Actividades.AgregarFotosActivity" />
+        <activity android:name=".Actividades.VerFotosActivity" />
+        <activity android:name=".Actividades.ConfigurationActivity"></activity>
+    </application>
+
+</manifest>

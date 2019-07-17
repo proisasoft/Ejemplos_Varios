@@ -1,0 +1,1 @@
+include ':app', ':fotosvehiculoslibrary-release', ':fotosvehiculoslibrary'

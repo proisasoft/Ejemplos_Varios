@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+    <!-- Tipo de Vehiculo-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tipo"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <Spinner
+        android:id="@+id/sp_tipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--  Marca-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/marca"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <Spinner
+        android:id="@+id/sp_marca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--Modelo-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/modelo"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <Spinner
+        android:id="@+id/sp_modelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

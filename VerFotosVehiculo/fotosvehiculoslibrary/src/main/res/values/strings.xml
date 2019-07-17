@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">FotosVehiculosLibrary</string>
+    <string name="permiso_camara_denegado">Permiso de Camera Denegado</string>
+    <string name="permiso_memoria_denegado">Permiso de Memoria denegado</string>
+    <string name="add_from_fotos">Agregar Fotos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="precio_venta">Precio de Venta</string>
+    <string name="precio_minimo">Precio Mínimo</string>
+    <string name="precio_ultimo">Último Precio</string>
+
+
+    <string name="servidor_no_disponible">Servidor No Disponible</string>
+    <string name="nuevo">Nuevo</string>
+    <string name="usado">Usado</string>
+    <string name="nuevo_usado">Nuevo/Usado</string>
+    <string name="estado">Estado</string>
+    <string name="marca">Marca</string>
+    <string name="modelo">Modelo</string>
+    <string name="tipo">Tipo de Vehículo</string>
+    <string name="hasta">hasta</string>
+    <string name="year">Año</string>
+    <string name="precio_condicion">Precio y Condición</string>
+    <string name="busqueda">Búsqueda Avanzada</string>
+    <string name="combustible">Combustible</string>
+    <string name="transmision">Transmisión</string>
+    <string name="traccion">Tracción</string>
+    <string name="color">Color</string>
+    <string name="mas_opciones">Más Opciones</string>
+    <string name="buscar">Buscar</string>
+    <string name="no_vehiculos_disponibles">No hay vehículos disponibles.</string>
+    <string name="title_gallery">Galería de Fotos</string>
+    <string name="precio_rd">Precio RD$</string>
+    <string name="precio_us">Precio US$</string>
+    <string name="title_documento">Documentos</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="color_exterior">Color Exterior</string>
+    <string name="chasis">Chasis</string>
+    <string name="placa">Placa</string>
+    <string name="descripcion">Descripción</string>
+    <string name="ficha">Ficha</string>
+    <string name="subir">Subir Fotos</string>
+    <string name="Usuario">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="servidor">Servidor</string>
+    <string name="puerto">puerto</string>
+    <string name="base_de_datos">Base de Datos</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="precio">Precio</string>
+    <string name="filtro">filtro</string>
+</resources>

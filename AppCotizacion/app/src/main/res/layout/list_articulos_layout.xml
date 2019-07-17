@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    android:paddingLeft="5dp"
+    >
+
+
+        <TextView
+            android:id="@+id/lbl_descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="10dp"
+            android:textSize="@dimen/item_name_text_size"
+            />
+
+        <TextView
+            android:id="@+id/lbl_codigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Codigo"
+            android:textColor="@color/primaryText"
+            android:textStyle="italic"
+            />
+
+
+    <TextView
+        android:id="@+id/lbl_precio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Precio"
+
+        android:textColor="@color/colorAccent"
+        />
+
+</LinearLayout>

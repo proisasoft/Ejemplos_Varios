@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AgregarFotosVehiculo</string>
+    <string name="permiso_camara_denegado">Permiso de Camera Denegado</string>
+    <string name="permiso_memoria_denegado">Permiso de Memoria denegado</string>
+    <string name="vehiculos_disponibles">Vehículos Disponibles</string>
+    <string name="other_settings">Base de datos 1</string>
+    <string name="other_settings_2">Base de datos 2</string>
+    <string name="noSet">Ninguna</string>
+    <string name="set">Establecida</string>
+</resources>

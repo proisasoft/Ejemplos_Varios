@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <PreferenceScreen
+        android:title="@string/other_settings"
+        android:defaultValue="b1"
+        >
+        <EditTextPreference android:title="Servidor"
+            android:key="server"
+            android:inputType="text"
+            android:defaultValue="0.0.0.0"
+            />
+
+        <EditTextPreference android:title="Base de datos"
+            android:key="database"
+            android:inputType="text|textCapCharacters"
+            />
+
+        <EditTextPreference android:title="Usuario"
+            android:key="user"
+            android:inputType="text"
+            />
+
+        <EditTextPreference
+            android:title="Contraseña"
+            android:key="password"
+            android:inputType="textWebPassword"
+            />
+
+        <EditTextPreference
+            android:title="Puerto"
+            android:key="port"
+            android:inputType="numberSigned"
+            android:maxLength="4"
+            android:defaultValue="0000"
+            />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:title="@string/other_settings_2"
+        android:key="bd2"
+        >
+        <EditTextPreference android:title="Servidor"
+            android:key="server_2"
+            android:inputType="text"
+            android:defaultValue="0.0.0.0"
+            />
+
+        <EditTextPreference android:title="Base de datos"
+            android:key="database_2"
+            android:inputType="text|textCapCharacters"
+            />
+
+        <EditTextPreference android:title="Usuario"
+            android:key="user_2"
+            android:inputType="text"
+            />
+
+        <EditTextPreference
+            android:title="Contraseña"
+            android:key="password_2"
+            android:inputType="textWebPassword"
+            />
+
+        <EditTextPreference
+            android:title="Puerto"
+            android:key="port_2"
+            android:inputType="numberSigned"
+            android:maxLength="4"
+            android:defaultValue="0000"
+            />
+    </PreferenceScreen>
+</PreferenceScreen>
+

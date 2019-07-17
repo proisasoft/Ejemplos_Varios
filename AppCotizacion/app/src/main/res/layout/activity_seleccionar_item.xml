@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txt_busqueda_articulo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:layout_gravity="bottom"
+            android:imeOptions="actionDone"
+        />
+
+        <ImageButton
+            android:id="@+id/btn_busqueda"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_search"
+            android:layout_weight="0.2"
+            android:tint="@color/colorPrimaryDark"
+            android:background="#00000000"
+            />
+
+    </LinearLayout>
+
+
+    <RadioGroup
+        android:id="@+id/rg_filtro_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/rb_descripcion_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/filtro_nombre"
+            android:padding="5dp"
+            android:checked="true"
+
+            />
+        <RadioButton
+            android:id="@+id/rb_codigo_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_codigo"
+            android:padding="5dp"
+            />
+        <RadioButton
+            android:id="@+id/rb_referencia_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/filtro_referencia"
+            android:padding="5dp"
+
+            />
+    </RadioGroup>
+
+    <ListView
+        android:id="@+id/lista_de_items"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </ListView>
+
+
+</LinearLayout>

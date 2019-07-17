@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txt_busqueda_cliente"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:layout_gravity="bottom"
+            android:imeOptions="actionDone"
+            />
+
+        <ImageButton
+            android:id="@+id/btn_busqueda"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_search"
+            android:layout_weight="0.2"
+            android:tint="@color/colorPrimaryDark"
+            android:background="#00000000"
+            />
+
+    </LinearLayout>
+
+
+    <RadioGroup
+        android:id="@+id/rg_filtro_cliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/rb_nombre_cliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:padding="5dp"
+            android:text="@string/filtro_cliente" />
+        <RadioButton
+            android:id="@+id/rb_rnc_cliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/filtro_rnc"
+            android:padding="5dp"
+            />
+        <RadioButton
+            android:id="@+id/rb_telefono_cliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/filtro_telefono"
+            android:padding="5dp"
+
+            />
+    </RadioGroup>
+
+    <ListView
+        android:id="@+id/lista_clientes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+
+</LinearLayout>
